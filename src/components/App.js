@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const App = () => {
-  useEffect(() => {
-    console.log("Greetings");
-  })
   return (
     <h1>Boilerplate</h1>
   );
