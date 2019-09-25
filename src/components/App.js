@@ -1,15 +1,12 @@
-import React, { Component } from "react";
+import React, { useEffect } from 'react';
 
-import "styles/index.scss";
-
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Boilerplate</h1>
-      </div>
-    );
-  }
-}
+const App = () => {
+  useEffect(() => {
+    console.log("Greetings");
+  })
+  return (
+    <h1>Boilerplate</h1>
+  );
+};
 
 export default App;
